@@ -142,12 +142,13 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code>"
+    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code>\n\n🔆𝗖𝗶𝗻𝗲𝗺𝗮 𝘄𝗼𝗿𝗹𝗱🔆\n\n<a href=https://t.me/joinchat/JOKzFUR3I8llZDdl >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>"
         
     try:
         await update.message.edit(
                 text,
                 reply_markup=reply_markup,
+            
                 parse_mode="html"
         )
         
@@ -1639,10 +1640,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
+            InlineKeyboardButton('🌈Ɠɾσυρ🌈', url='https://t.me/Cinema_world_officiel'),
+            InlineKeyboardButton('🌈Ƈԋαɳɳҽʅ🌈', url ='https://t.me/joinchat/JOKzFUR3I8llZDdl')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('✨ Ƈʜɳɳҽʅ ʅιsƚ✨', url='http://t.me/cw_access_bot')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
