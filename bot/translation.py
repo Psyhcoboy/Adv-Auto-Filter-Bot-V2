@@ -10,7 +10,7 @@ class Translation(object):
     
     HELP_TEXT = """
 <b>നോക്കണ്ട എന്നെ കൊണ്ട് നിനക്ക് ഒരു help കിട്ടില്ല /about</b>
-
+"""
 
 
     
