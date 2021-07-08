@@ -179,6 +179,7 @@ async def help(bot, update):
         chat_id=update.chat.id,
         text=Translation.HELP_TEXT,
         reply_markup=reply_markup,
+        disable_web_page_preview=True, 
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
