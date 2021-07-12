@@ -61,7 +61,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '💋𝗡𝗲𝘄 𝗠𝗼𝘃𝗶𝗲𝘀💋', url="https://t.me/joinchat/FCsRCzzfYmQ2Nzhl"
+                                    '💋𝗡𝗲𝘄 𝗠𝗼𝘃𝗶𝗲𝘀💋', url="https://t.me/cw_main"
                                 )
                         ]
                     ]
@@ -96,7 +96,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '💋𝗡𝗲𝘄 𝗠𝗼𝘃𝗶𝗲𝘀💋', url="https://t.me/joinchat/FCsRCzzfYmQ2Nzhl"
+                                    '💋𝗡𝗲𝘄 𝗠𝗼𝘃𝗶𝗲𝘀💋', url="https://t.me/cw_main"
                                 )
                         ]
                     ]
@@ -131,7 +131,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '💋𝗡𝗲𝘄 𝗠𝗼𝘃𝗶𝗲𝘀💋', url="https://t.me/joinchat/FCsRCzzfYmQ2Nzhl"
+                                    '💋𝗡𝗲𝘄 𝗠𝗼𝘃𝗶𝗲𝘀💋', url="https://t.me/cw_main"
                                 )
                         ]
                     ]
