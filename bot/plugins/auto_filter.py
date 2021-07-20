@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"<b>നിങ്ങൾ ചോദിച്ചത് 👉</b>: <code>{query}</code>\n\n🔆𝗖𝗜𝗡𝗘𝗠𝗔 𝗪𝗢𝗥𝗟𝗗🔆\n<a href=https://t.me/joinchat/JOKzFUR3I8llZDdl >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>",
+                text=f"🏅𝗬𝗼𝘂𝗿 𝗤𝘂𝗲𝗿𝘆 ➠: <code>{query}</code>\n\n🔆𝗖𝗜𝗡𝗘𝗠𝗔 𝗪𝗢𝗥𝗟𝗗🔆\n<a href=https://t.me/joinchat/JOKzFUR3I8llZDdl >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>",
                 reply_markup=reply_markup,
                 disable_web_page_preview=True, 
                 parse_mode="html",
