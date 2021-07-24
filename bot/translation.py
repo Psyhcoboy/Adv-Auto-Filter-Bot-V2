@@ -20,6 +20,8 @@ class Translation(object):
 
 <b>➥ Language</b> : <code>Python3</code>
 
+<b>➥ Server</b> : paid server💵
+
 <b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
 <b>➥ Source Code</b> : <i><a href="https://telegra.ph/file/f30d29cafa026c7866873.jpg">Click Me</a></i>
