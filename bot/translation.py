@@ -5,7 +5,7 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-
+https://telegra.ph/file/5e96023ce2854efe4ed2b.jpg
 <b>Am an auto filter bot exclusively maded for <a href="https://t.me/Cinema_world_officiel">cinema world</a>\n\nAnd don't try to add me in your group. Am totally different😌</b>
  """   
     HELP_TEXT = """
