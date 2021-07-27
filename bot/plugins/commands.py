@@ -46,7 +46,7 @@ async def start(bot, update):
                         text=FMSG_TXT,
                         parse_mode="md",
                         reply_markup=InlineKeyboardMarkup([
-                            [ InlineKeyboardButton(text="𝗝𝗼𝗶𝗻 & 𝗧𝗿𝘆", url=f"https://t.me/{update_channel}")]
+                            [ InlineKeyboardButton(text="🔰𝗝𝗼𝗶𝗻&𝗧𝗿𝘆🔰", url=f"https://t.me/{update_channel}")]
                       ])
                     )
                     return
@@ -82,7 +82,7 @@ async def start(bot, update):
                         text=FMSG_TXT,
                         parse_mode="md",
                         reply_markup=InlineKeyboardMarkup([
-                            [ InlineKeyboardButton(text="𝗝𝗼𝗶𝗻 & 𝗧𝗿𝘆", url=f"https://t.me/{update_channel}")]
+                            [ InlineKeyboardButton(text="🔰𝗝𝗼𝗶𝗻&𝗧𝗿𝘆🔰", url=f"https://t.me/{update_channel}")]
                       ])
                     )
                     return
@@ -117,7 +117,7 @@ async def start(bot, update):
                         text=FMSG_TXT,
                         parse_mode="md",
                         reply_markup=InlineKeyboardMarkup([
-                            [ InlineKeyboardButton(text="𝗝𝗼𝗶𝗻 & 𝗧𝗿𝘆", url=f"https://t.me/{update_channel}")]
+                            [ InlineKeyboardButton(text="🔰𝗝𝗼𝗶𝗻&𝗧𝗿𝘆🔰", url=f"https://t.me/{update_channel}")]
                       ])
                     )
                     return
