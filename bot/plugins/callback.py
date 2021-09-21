@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<b>🗂️Total File :-</b> <code>{leng}</code>\n\n <b>🎬File Name :- </b> <code>{query}</code>"
+    text=f"<b>🗂️Total File :-</b> <code>{leng}</code>\n<b>🎬File Name :- </b> <code>{query}</code>"
         
     try:
         await update.message.edit(
