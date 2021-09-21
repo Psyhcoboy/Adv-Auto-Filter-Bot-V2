@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             msg=await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"📂𝗧𝗼𝘁𝗮𝗹 𝗙𝗶𝗹𝘁𝗲𝗿𝘀: {(len_results)} \n📺𝗙𝗶𝗹𝗺 𝗡𝗮𝗺𝗲: <code>{query}</code>\n⚠️𝗧𝗵𝗶𝘀 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗱𝗲𝗹𝗲𝘁𝗲 𝘄𝗶𝘁𝗵𝗶𝗻 𝟱 𝗺𝗶𝗻𝘂𝘁𝗲𝘀\n\n🔆𝗖𝗜𝗡𝗘𝗠𝗔 𝗪𝗢𝗥𝗟𝗗🔆\n<a href=https://t.me/joinchat/5qjx72HxFXA0YWZl >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>",
+                text=f"<b>🗂️Total File :- {(len_results)} </b>\n<b>🎬File Name :-</b> <code>{query}</code>",
                 reply_markup=reply_markup,
                 disable_web_page_preview=True, 
                 parse_mode="html",
