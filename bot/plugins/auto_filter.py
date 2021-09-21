@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             msg=await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"<b>🗂️Total File :- {(len_results)} </b>\n<b>🎬File Name :-</b> <code>{query}</code>\n\n⚠️𝗧𝗵𝗶𝘀 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗱𝗲𝗹𝗲𝘁𝗲 𝘄𝗶𝘁𝗵𝗶𝗻 𝟱 𝗺𝗶𝗻𝘂𝘁𝗲𝘀",
+                text=f"<b>🗂️Total File :- {(len_results)} </b>\n<b>🎬File Name :-</b> <code>{query}</code>\n\n⚠️𝗜𝗳 𝘆𝗼𝘂 𝗱𝗼𝗻'𝘁 𝗴𝗲𝘁 𝗺𝗼𝘃𝗶𝗲.𝗖𝗵𝗲𝗰𝗸 𝘆𝗼𝘂𝗿 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗶𝗻 𝗴𝗼𝗼𝗴𝗹𝗲",
                 reply_markup=reply_markup,
                 disable_web_page_preview=True, 
                 parse_mode="html",
