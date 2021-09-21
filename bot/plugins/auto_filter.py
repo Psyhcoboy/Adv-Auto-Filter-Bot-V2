@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             msg=await bot.send_message(
                 chat_id = update.chat.id,
-                photo= "https://telegra.ph/file/7460f3e7c2e8d4258c60a.jpg" ,
+                image="https://telegra.ph/file/7460f3e7c2e8d4258c60a.jpg" ,
                 text=f"<b>🗂️Total File :- {(len_results)} </b>\n<b>🎬File Name :-</b> <code>{query}</code>\n\n⚠️𝗜𝗳 𝘆𝗼𝘂 𝗱𝗼𝗻'𝘁 𝗴𝗲𝘁 𝗺𝗼𝘃𝗶𝗲.𝗖𝗵𝗲𝗰𝗸 𝘆𝗼𝘂𝗿 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗶𝗻 𝗴𝗼𝗼𝗴𝗹𝗲",
                 reply_markup=reply_markup,
                 disable_web_page_preview=True, 
