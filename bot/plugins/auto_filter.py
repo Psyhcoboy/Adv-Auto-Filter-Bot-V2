@@ -147,13 +147,13 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("==»ɢᴏ ᴛᴏ ɴᴇxᴛ ᴘᴀɢᴇ==»", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("Next ⏩", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"👿 Page 1/{len_result if len_result < max_pages else max_pages} 👿", callback_data="ignore")
+            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
         ])
         
         
@@ -201,17 +201,15 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(result[0])
 
         try:
-            msg=await bot.send_message(
+            await bot.send_message(
                 chat_id = update.chat.id,
-       
-                text=f"<b>🗂️Total File :- {(len_results)} </b>\n<b>🎬File Name :-</b> <code>{query}</code>\n\n⚠️𝗜𝗳 𝘆𝗼𝘂 𝗱𝗼𝗻'𝘁 𝗴𝗲𝘁 𝗺𝗼𝘃𝗶𝗲.𝗖𝗵𝗲𝗰𝗸 𝘆𝗼𝘂𝗿 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗶𝗻 𝗴𝗼𝗼𝗴𝗹𝗲",
+                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>\n\n🔆𝗖𝗜𝗡𝗘𝗠𝗔 𝗪𝗢𝗥𝗟𝗗🔆\n<a href=https://t.me/joinchat/JOKzFUR3I8llZDdl >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>",
                 reply_markup=reply_markup,
                 disable_web_page_preview=True, 
                 parse_mode="html",
                 reply_to_message_id=update.message_id
             )
-            await asyncio.sleep(300)
-            await msg.delete()
+
         except ButtonDataInvalid:
             print(result[0])
         
