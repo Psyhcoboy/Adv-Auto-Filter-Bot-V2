@@ -46,7 +46,8 @@ async def start(bot, update):
                         text=FMSG_TXT,
                         parse_mode="md",
                         reply_markup=InlineKeyboardMarkup([
-                            [ InlineKeyboardButton(text="🌀ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ🌀", url=f"https://t.me/{update_channel}")]
+                            [ InlineKeyboardButton(text="🌀ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ🌀", url=f"https://t.me/{update_channel}")], 
+                            [InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")]
                       ])
                     )
                     return
