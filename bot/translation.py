@@ -14,15 +14,10 @@ class Translation(object):
 
 
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
-    
-<b>➥ Creator</b> : <b><i><a href="https://t.me/cw_perfect">perfect</a></i></b>
-
-<b>➥ Language</b> : <code>Python3</code>
-
-<b>➥ Server</b> : paid server💵
-
-<b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
-
-<b>➥ Source Code</b> : <i><a href="https://telegra.ph/file/f30d29cafa026c7866873.jpg">Click Me</a></i>
-"""
+    ABOUT_TEXT = """<b><i>Bot Info</i></b>
+    <b>Bot Nmae</b>: <b><i><a href="t.me/cw_professor_bot">◢◤мαѕтєя◢◤¹</a></i></b>
+    <b>Creator</b>: <b><i><a href="https://t.me/cw_perfect">perfect</a></i></b>
+    <b>Server</b>: <i>Heroko</i>
+    -------------------------
+    <b>You can also click /start, /help, /about😹</b>
+    """
