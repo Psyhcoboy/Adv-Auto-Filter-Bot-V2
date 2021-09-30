@@ -131,7 +131,7 @@ async def auto_filter(bot, update):
             text=f"<b>🔰Check your spelling same at google.And try again🔰</b>",
             parse_mode="html",
             reply_markup=InlineKeyboardMarkup([
-                [ InlineKeyboardButton(text="📞Contact admin", url=f"t.me/cw_access_bot}")]
+                [ InlineKeyboardButton(text="📞Contact admin", url="http://t.me/cw_access_bot")]
             
     reply_to_message_id=update.message_id)
         return
