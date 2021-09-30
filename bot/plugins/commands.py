@@ -16,7 +16,7 @@ FMSG_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
 
 🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈
 
-             👇 𝗖𝗹𝗶𝗰𝗸 𝗧𝗵𝗲 𝗝𝗼𝗶𝗻 & 𝗧𝗿𝘆 👇"""
+👇 𝗖𝗹𝗶𝗰𝗸 𝗧𝗵𝗲 𝗝𝗼𝗶𝗻 & 𝗧𝗿𝘆 👇"""
 @Client.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):   
     try:
@@ -46,15 +46,14 @@ async def start(bot, update):
                         text=FMSG_TXT,
                         parse_mode="md",
                         reply_markup=InlineKeyboardMarkup([
-                            [ InlineKeyboardButton(text="🌀ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ🌀", url=f"https://t.me/{update_channel}")]
-                     
+                            [ InlineKeyboardButton(text="𝗝𝗼𝗶𝗻 & 𝗧𝗿𝘆", url=f"https://t.me/{update_channel}")]
                       ])
                     )
                     return
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"📂{file_name}\n\n<b>➠ɴᴇᴡ ᴍᴏᴠɪᴇs : @cw_main\n\n➠ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇ  : @cw_links\n\n➠Gʀᴏᴜᴘ : @Cinema_world_officiel</b>",
+                caption = "<b>➠ɴᴇᴡ ᴍᴏᴠɪᴇs : @cw_main\n\n➠ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇ  : @cw_links\n\n➠Gʀᴏᴜᴘ : @Cinema_world_officiel</b>",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -83,8 +82,7 @@ async def start(bot, update):
                         text=FMSG_TXT,
                         parse_mode="md",
                         reply_markup=InlineKeyboardMarkup([
-                            [ InlineKeyboardButton(text="𝗝𝗼𝗶𝗻 & 𝗧𝗿𝘆", url=f"https://t.me/{update_channel}")], 
-                            [InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")]
+                            [ InlineKeyboardButton(text="𝗝𝗼𝗶𝗻 & 𝗧𝗿𝘆", url=f"https://t.me/{update_channel}")]
                       ])
                     )
                     return
@@ -119,8 +117,7 @@ async def start(bot, update):
                         text=FMSG_TXT,
                         parse_mode="md",
                         reply_markup=InlineKeyboardMarkup([
-                            [ InlineKeyboardButton(text="𝗝𝗼𝗶𝗻 & 𝗧𝗿𝘆", url=f"https://t.me/{update_channel}")], 
-                            [InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")]
+                            [ InlineKeyboardButton(text="𝗝𝗼𝗶𝗻 & 𝗧𝗿𝘆", url=f"https://t.me/{update_channel}")]
                       ])
                     )
                     return
@@ -148,7 +145,7 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('🌈Ɠɾσυρ🌈', url='https://t.me/Cinema_world_officiel'),
-        InlineKeyboardButton('🌈Ƈԋαɳɳҽʅ🌈', url ='https://t.me/joinchat/5qjx72HxFXA0YWZl')
+        InlineKeyboardButton('🌈Ƈԋαɳɳҽʅ🌈', url ='https://t.me/joinchat/JOKzFUR3I8llZDdl')
     ],[
         InlineKeyboardButton('✨ Ƈʜɳɳҽʅ ʅιsƚ✨', url='http://t.me/cw_access_bot')
     ],[
