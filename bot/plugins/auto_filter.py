@@ -133,6 +133,8 @@ async def auto_filter(bot, update):
                 InlineKeyboardButton(text="📞Contact admin", url="http://t.me/Cw_admin_bot"
                                      )]])
             ) 
+            await asyncio.sleep(300)
+            await msg.delete()
     
 
     if len(results) == 0: # double check
