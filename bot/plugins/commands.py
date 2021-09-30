@@ -206,7 +206,7 @@ async def about(bot, update):
     
     
 
-@Client.on_message(filters.command(["google"]) & filters.public, group=1)
+@Client.on_message(filters.command(["google"]) & filters.privet, group=1)
 async def about(bot, update):
     buttons = [[
         InlineKeyboardButton('serch on google', url='http://google.com'),
