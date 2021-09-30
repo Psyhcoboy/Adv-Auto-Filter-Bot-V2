@@ -126,7 +126,14 @@ async def auto_filter(bot, update):
             )
         
     else:
-        return # return if no files found for that query
+        await update.reply_photo(
+            photo="Link",
+            caption="Your Text",
+            reply_markup=InlineKeyboardMarkup([[
+                InlineKeyboardButton(text="📞Contact admin", url="http://t.me/cw_access_bot"
+                                     )]])
+
+
     
 
     if len(results) == 0: # double check
