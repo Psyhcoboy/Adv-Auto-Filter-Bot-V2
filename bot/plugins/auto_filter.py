@@ -126,7 +126,7 @@ async def auto_filter(bot, update):
             )
         
     else:
-        await bot.send_photo('https://telegra.ph/file/2f569a2dfb2ab2e5723d2.jpg')"
+        await bot.send_photo('https://telegra.ph/file/2f569a2dfb2ab2e5723d2.jpg')
             chat_id=update.chat.id,
             text=f"<b>🔰Check your spelling same at google.And try again🔰</b>",
             parse_mode="html",
