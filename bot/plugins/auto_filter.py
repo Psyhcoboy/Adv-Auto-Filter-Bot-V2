@@ -128,7 +128,7 @@ async def auto_filter(bot, update):
     else:
         await bot.send_message(
             chat_id=update.chat.id,
-            text=f"<b>🔰Check your spelling same at google.And try again🔰\n<b><a href="www.google.com">Click here to open google</a></b></b>",
+            text=f"<b>🔰Check your spelling same at google.And try again🔰\n<a href="www.google.com">Click here to open google</a></b>",
             parse_mode="html",
             
     reply_to_message_id=update.message_id)
