@@ -126,21 +126,11 @@ async def auto_filter(bot, update):
             )
         
     else:
-        await bot.send_photo('https://telegra.ph/file/2f569a2dfb2ab2e5723d2.jpg'), 
-            chat_id=update.chat.id,
-            text=f"<b>🔰Check your spelling same at google.And try again🔰</b>",
-            parse_mode="html",
-            
-            
-    reply_to_message_id=update.message_id)
-        return
-
-
+        return # return if no files found for that query
+    
 
     if len(results) == 0: # double check
         return
-
-     
     
     else:
     
@@ -211,16 +201,14 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(result[0])
 
         try:
-            msg=await bot.send_message(
+            await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"📂𝗧𝗼𝘁𝗮𝗹 𝗙𝗶𝗹𝗲𝘀 {(len_results)} \n📁𝗙𝗶𝗹𝗲 𝗡𝗮𝗺𝗲:- <code>{query}</code>\n\n🔆𝗖𝗜𝗡𝗘𝗠𝗔 𝗪𝗢𝗥𝗟𝗗🔆\n<a href=https://t.me/joinchat/5qjx72HxFXA0YWZl >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>",
+                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>\n\n🔆𝗖𝗜𝗡𝗘𝗠𝗔 𝗪𝗢𝗥𝗟𝗗🔆\n<a href=https://t.me/joinchat/JOKzFUR3I8llZDdl >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>",
                 reply_markup=reply_markup,
                 disable_web_page_preview=True, 
                 parse_mode="html",
                 reply_to_message_id=update.message_id
             )
-            await asyncio.sleep(300)
-            await msg.delete()
 
         except ButtonDataInvalid:
             print(result[0])
