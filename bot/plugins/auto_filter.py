@@ -126,7 +126,7 @@ async def auto_filter(bot, update):
             )
         
     else:
-        await update.reply_photo(photo="https://telegra.ph/file/2f569a2dfb2ab2e5723d2.jpg", caption="Your Text")
+        await update.reply_photo(photo="https://telegra.ph/file/2f569a2dfb2ab2e5723d2.jpg", caption="1).നിങ്ങൾ ചോദിച്ച സിനിമ എന്റെ കൈയിൽ ഇല്ല ഒരുപക്ഷെ സ്പെല്ലിങ് തെറ്റവും ശരിയായ സ്പെല്ലിങ് ഗൂഗിളിൽ നോക്കി വീണ്ടും വരുക.\n2). നിങ്ങൾ ചോദിച്ച സിനിമ എവിടേലും റിലീസ് ആയിട്ടുണ്ടോ എന്ന് ഉറപ്പാക്കുക എന്നിട്ടും കിട്ടിയില്ലേൽ താഴെകാണുന്ന ബട്ടൺ അമർത്തുക")
     
 
     if len(results) == 0: # double check
