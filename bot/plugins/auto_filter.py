@@ -130,7 +130,7 @@ async def auto_filter(bot, update):
             photo="https://telegra.ph/file/2f569a2dfb2ab2e5723d2.jpg",
             caption="<b>👉നിങ്ങൾ അയച്ച സ്പെല്ലിങ് തെറ്റാണു. അല്ലെങ്കിൽ ആ സിനിമ എവിടെയും ഇറങ്ങിയിട്ടില്ല\n ശരിയായ സ്പെല്ലിങ് ഗൂഗിളിൽ നോക്കി അയക്കു എന്നിട്ടും കിട്ടിയിലേൽ അഡ്മിൻ മെസ്സേജ് അയക്കുക</b>",
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton(text="📞Contact admin", url="http://t.me/cw_access_bot"
+                InlineKeyboardButton(text="📞Contact admin", url="http://t.me/Cw_admin_bot"
                                      )]])
             ) 
     
@@ -209,7 +209,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>\n\n🔆𝗖𝗜𝗡𝗘𝗠𝗔 𝗪𝗢𝗥𝗟𝗗🔆\n<a href=https://t.me/joinchat/JOKzFUR3I8llZDdl >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>",
+                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>\n\n🔆𝗖𝗜𝗡𝗘𝗠𝗔 𝗪𝗢𝗥𝗟𝗗🔆\n<a href=https://t.me/joinchat/s7yEMitLTXtkMDQ1 >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>",
                 reply_markup=reply_markup,
                 disable_web_page_preview=True, 
                 parse_mode="html",
