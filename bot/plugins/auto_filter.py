@@ -139,8 +139,8 @@ async def auto_filter(bot, update):
 
     if len(results) == 0: # double check
         return
-    reply_markup=InlineKeyboardMarkup([
-        [ InlineKeyboardButton(text="📞Contact admin", url="http://t.me/cw_access_bot")]
+
+     
     
     else:
     
