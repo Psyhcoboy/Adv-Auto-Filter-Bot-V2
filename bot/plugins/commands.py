@@ -206,7 +206,7 @@ async def about(bot, update):
     
     
 
-@Client.on_message(filters.command(["google"]) & filters.private, group=1)
+@Client.on_message(filters.command(["links"]) & filters.private, group=1)
 async def about(bot, update):
     buttons = [[
         InlineKeyboardButton('Main Channel', url='https://t.me/joinchat/s7yEMitLTXtkMDQ1'),
