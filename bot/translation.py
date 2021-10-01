@@ -23,6 +23,6 @@ class Translation(object):
     """
     
     
-    GOOGLE_TEXT = """
-    <b>please check your spelling on google</b> :- <b><i><a href="http://google.com">Go To Google</a></i></b>
+    CHANNEL_TEXT = """
+    <b><i>All Channels Links In Here Check It Out. And More Channels Coming Soon</i></b>
     """
