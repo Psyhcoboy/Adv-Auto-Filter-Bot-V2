@@ -128,7 +128,7 @@ async def auto_filter(bot, update):
     else:
         await update.reply_photo(
             photo="https://telegra.ph/file/2f569a2dfb2ab2e5723d2.jpg",
-            caption="<b>👉നിങ്ങൾ അയച്ച സ്പെല്ലിങ് തെറ്റാണു. അല്ലെങ്കിൽ ആ സിനിമ എവിടെയും ഇറങ്ങിയിട്ടില്ല\n ശരിയായ സ്പെല്ലിങ് ഗൂഗിളിൽ നോക്കി അയക്കു എന്നിട്ടും കിട്ടിയിലേൽ അഡ്മിൻ മെസ്സേജ് അയക്കുക</b>",
+            caption="<b><i>Hey, {} !! I Couldn't Find The Movie You're Looking for😔😔\n\nCheck Your Spelling In Google And Try Again\n👉Don't Get Film Use me👇</i></b>",
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(text="📞Contact admin", url="http://t.me/Cw_admin_bot"
                                      )]])
