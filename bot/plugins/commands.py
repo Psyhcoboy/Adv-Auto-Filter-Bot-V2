@@ -209,14 +209,18 @@ async def about(bot, update):
 @Client.on_message(filters.command(["google"]) & filters.private, group=1)
 async def about(bot, update):
     buttons = [[
-        InlineKeyboardButton('serch on google', url='http://google.com'),
-        InlineKeyboardButton('Contact admin', url='http://t.me/cw_access_bot'),
+        InlineKeyboardButton('Main Channel', url='https://t.me/joinchat/s7yEMitLTXtkMDQ1'),
+        InlineKeyboardButton('Web Series', url='https://t.me/joinchat/LL3jEjvYSalkYzFl'),
+    ],[
+        InlineKeyboardButton('Tamil Movies', url='https://t.me/joinchat/pOVWSc0XBno3Yjll'), 
+        InlineKeyboardButton('TvRip', url='https://t.me/joinchat/-7ISx_NHeDIxMjhl'), 
     ]]
+    
     reply_markup = InlineKeyboardMarkup(buttons) 
     
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.GOOGLE_TEXT,
+        text=Translation.CHANNEL_TEXT,
         reply_markup=reply_markup,
         disable_web_page_preview=True,
         parse_mode="html",
