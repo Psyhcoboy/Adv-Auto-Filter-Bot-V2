@@ -128,7 +128,7 @@ async def auto_filter(bot, update):
     else:
         await update.reply_photo(
             photo="https://telegra.ph/file/ba354ca0d4fe7673ec4b3.jpg",
-            caption="<b><i>Hey,I Couldn't Find The Movie You're Looking for😔😔\n\nCheck Your Spelling In Google And Try Again\n👉Don't Get Film Use me👇</i></b>",
+            caption="<b><i>Hey,I Couldn't Find The Movie You're Looking for😔😔\n\nCheck Your Spelling In<a href="www.google.com">𝙂𝙤𝙤𝙜𝙡𝙚</a> And Try Again\n👉Don't Get Film Use me👇</i></b>",
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(text="📞Contact admin", url="http://t.me/Cw_admin_bot"
                                      )]])
