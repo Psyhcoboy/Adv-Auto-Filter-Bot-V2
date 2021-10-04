@@ -214,8 +214,7 @@ async def auto_filter(bot, update):
                 parse_mode="html",
                 reply_to_message_id=update.message_id
             )
-            await asyncio.sleep(300)
-            await msg.delete(10)
+            
 
         except ButtonDataInvalid:
             print(result[0])
