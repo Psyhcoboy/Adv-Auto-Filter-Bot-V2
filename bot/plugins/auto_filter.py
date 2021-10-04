@@ -208,7 +208,7 @@ async def auto_filter(bot, update):
         try:
             msg=await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>\n\n🔆𝗖𝗜𝗡𝗘𝗠𝗔 𝗪𝗢𝗥𝗟𝗗🔆\n<a href=https://t.me/joinchat/s7yEMitLTXtkMDQ1 >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>",
+                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>\n\n⚠️ᴛʜɪs ᴍᴇssᴀɢᴇ ᴅᴇʟᴇᴛᴇ ᴡɪᴛʜɪɴ 𝟻 ᴍɪɴᴜᴛᴇs\n🔆𝗖𝗜𝗡𝗘𝗠𝗔 𝗪𝗢𝗥𝗟𝗗🔆\n<a href=https://t.me/joinchat/s7yEMitLTXtkMDQ1 >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>",
                 reply_markup=reply_markup,
                 disable_web_page_preview=True, 
                 parse_mode="html",
