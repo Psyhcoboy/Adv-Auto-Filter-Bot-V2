@@ -53,7 +53,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = "{file_name}\n<b>➠ɴᴇᴡ ᴍᴏᴠɪᴇs : @cw_main\n\n➠ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇ  : @cw_links\n\n➠Gʀᴏᴜᴘ : @Cinema_world_officiel</b>",
+                caption = caption, 
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -61,7 +61,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '💋𝗡𝗲𝘄 𝗠𝗼𝘃𝗶𝗲𝘀💋', url="https://t.me/cw_main"
+                                    '⚡𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡', url="https://t.me/cw_main"
                                 )
                         ]
                     ]
@@ -96,7 +96,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '💋𝗡𝗲𝘄 𝗠𝗼𝘃𝗶𝗲𝘀💋', url="https://t.me/cw_main"
+                                    '⚡𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡', url="https://t.me/cw_main"
                                 )
                         ]
                     ]
@@ -131,7 +131,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '💋𝗡𝗲𝘄 𝗠𝗼𝘃𝗶𝗲𝘀💋', url="https://t.me/cw_main"
+                                    '⚡𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡', url="https://t.me/cw_main"
                                 )
                         ]
                     ]
@@ -147,7 +147,7 @@ async def start(bot, update):
         InlineKeyboardButton('🌈Ɠɾσυρ🌈', url='https://t.me/Cinema_world_officiel'),
         InlineKeyboardButton('🌈Ƈԋαɳɳҽʅ🌈', url ='https://t.me/joinchat/s7yEMitLTXtkMDQ1')
     ],[
-        InlineKeyboardButton('✨ Ƈʜɳɳҽʅ ʅιsƚ✨', url='http://t.me/cw_access_bot')
+        
     ],[
 
     ]]
