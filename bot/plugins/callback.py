@@ -1640,12 +1640,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('🌈Ɠɾσυρ🌈', url='https://t.me/Cinema_world_officiel'),
-            InlineKeyboardButton('🌈Ƈԋαɳɳҽʅ🌈', url ='https://t.me/joinchat/5qjx72HxFXA0YWZl')
+            InlineKeyboardButton('🌈Ɠɾσυρ🌈', url='https://t.me/tmIkkaBakthans'),
+            InlineKeyboardButton('🌈Ƈԋαɳɳҽʅ🌈', url ='https://t.me/ikkabhakthans369')
         ],[
-            InlineKeyboardButton('✨ Ƈʜɳɳҽʅ ʅιsƚ✨', url='http://t.me/cw_access_bot')
-        ],[
-            InlineKeyboardButton('Help ⚙', callback_data="help")
+            
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
