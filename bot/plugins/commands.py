@@ -61,7 +61,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⚡𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡', url="https://t.me/cw_main"
+                                    '⚡𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡', url="https://t.me/ikkabhakthans369"
                                 )
                         ]
                     ]
@@ -96,7 +96,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⚡𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡', url="https://t.me/cw_main"
+                                    '⚡𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡', url="https://t.me/ikkabhakthans369"
                                 )
                         ]
                     ]
@@ -131,7 +131,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⚡𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡', url="https://t.me/cw_main"
+                                    '⚡𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡', url="https://t.me/ikkabhakthans369"
                                 )
                         ]
                     ]
@@ -144,8 +144,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('🌈Ɠɾσυρ🌈', url='https://t.me/Cinema_world_officiel'),
-        InlineKeyboardButton('🌈Ƈԋαɳɳҽʅ🌈', url ='https://t.me/joinchat/s7yEMitLTXtkMDQ1')
+        InlineKeyboardButton('🌈Ɠɾσυρ🌈', url='https://t.me/tmIkkaBakthans'),
+        InlineKeyboardButton('🌈Ƈԋαɳɳҽʅ🌈', url ='https://t.me/ikkabhakthans369')
     ],[
         
     ],[
