@@ -126,14 +126,9 @@ async def auto_filter(bot, update):
             )
         
     else:
-        await update.reply_photo(
-            photo="https://telegra.ph/file/ba354ca0d4fe7673ec4b3.jpg",
-            caption="<b><i>Hey,I Couldn't Find The Movie You're Looking for😔😔\n\nCheck Your Spelling In Google And Try Again\n👉Don't Get Film Use me👇</i></b>",
-            reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton(text="📞Contact admin", url="http://t.me/Cw_admin_bot"
-                                     )]])
-            ) 
-            
+        return # return if no files found for that query
+    
+
     if len(results) == 0: # double check
         return
     
@@ -206,15 +201,14 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(result[0])
 
         try:
-            msg=await bot.send_message(
+            await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"𝗙𝗼𝘂𝗻𝗱 {(len_results)} 𝗥𝗲𝘀𝘂𝗹𝘁𝘀 𝗙𝗼𝗿 𝗬𝗼𝘂𝗿 𝗤𝘂𝗲𝗿𝘆: <code>{query}</code>\n\n⚠️ᴛʜɪ𝘀 ᴍᴇ𝘀𝘀ᴀɢᴇ ᴅᴇʟᴇᴛᴇ ᴡɪᴛʜɪɴ 𝟻 ᴍɪɴᴜᴛᴇ𝘀\n\n🔆𝗖𝗜𝗡𝗘𝗠𝗔 𝗪𝗢𝗥𝗟𝗗🔆\n<a href=https://t.me/joinchat/s7yEMitLTXtkMDQ1 >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>",
+                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>\n\n🔆𝗖𝗜𝗡𝗘𝗠𝗔 𝗪𝗢𝗥𝗟𝗗🔆\n<a href=https://t.me/joinchat/JOKzFUR3I8llZDdl >🗣️𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>",
                 reply_markup=reply_markup,
                 disable_web_page_preview=True, 
                 parse_mode="html",
                 reply_to_message_id=update.message_id
             )
-            
 
         except ButtonDataInvalid:
             print(result[0])
