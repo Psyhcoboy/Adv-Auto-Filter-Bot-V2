@@ -5,7 +5,7 @@
 class Translation(object):
 
     START_TEXT = """<b>Hey {}!!</b>
-<b><i>ഞാൻ JHON WICK എന്നെ ഇക്കാഭക്തൻസ്<a href="https://t.me/tmIkkaBakthans">IKKA BAKTHANS</a> ഗ്രൂപ്പിൽ സിനിമ കൊടുക്കാൻ വേണ്ടി ഇറക്കിയതാണ്..</i></b>
+<b><i>ഞാൻ JHON WICK എന്നെ<a href="https://t.me/tmIkkaBakthans">ഇക്കാഭക്തൻസ്</a> ഗ്രൂപ്പിൽ സിനിമ കൊടുക്കാൻ വേണ്ടി ഇറക്കിയതാണ്..</i></b>
 
  """   
     HELP_TEXT = """
