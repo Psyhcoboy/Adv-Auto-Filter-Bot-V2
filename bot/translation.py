@@ -16,7 +16,7 @@ class Translation(object):
 
     
     ABOUT_TEXT = """   <b><i><u>Bot Info</i></b></u>
-    <b>Bot Nmae</b>: <b><i><a href="t.me/JohnWick369_Bot">Jhon Wick</a></i></b>
+    <b>Bot Name</b>: <b><i><a href="t.me/JohnWick369_Bot">Jhon Wick</a></i></b>
     <b>Creator</b>:  <b><i><a href="https://t.me/cw_perfect">perfect</a></i></b>
     <b>owner</b>  :  <b><i><a href="https://t.me/THancii">message</a></i></b>
     <b>Server</b>:   <i>Heroko</i>
